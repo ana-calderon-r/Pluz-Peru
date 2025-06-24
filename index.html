@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Área de Proyectos PLUZ</title>
+  <link rel="icon" href="logo-blanco.png" type="image/png">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1em 0 0.5em;
+    }
+    header img {
+      max-height: 60px;
+    }
+    header h1 {
+      margin: 0.2em 0 0.5em;
+      color: #2F56A6;
+    }
+    nav {
+      background-color: #2F56A6;
+      padding: 1em;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav li {
+      display: inline;
+      margin: 0 1em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 2em;
+    }
+    .report {
+      background-color: white;
+      margin-bottom: 2em;
+      padding: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      animation: fadeIn 0.8s ease-in;
+    }
+    .report h2 {
+      color: #2F56A6;
+      margin-top: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 10px;
+    }
+    .green { border-left: 8px solid #74A84C; }
+    .yellow { border-left: 8px solid #F7C948; }
+    .blue { border-left: 8px solid #2F56A6; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-blanco.png" alt="Logo PLUZ">
+    <h1>Panel de Indicadores PLUZ</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#reporte1">Factibilidad</a></li>
+      <li><a href="#reporte2">BM y Áreas</a></li>
+      <li><a href="#reporte3">SSUU</a></li>
+      <li><a href="#reporte4">HHUU</a></li>
+      <li><a href="#reporte5">Alimentadores</a></li>
+      <li><a href="#reporte6">SSDD</a></li>
+      <li><a href="#reporte7">Multas Contratistas</a></li>
+      <li><a href="#reporte8">Liquidaciones</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div id="reporte1" class="report blue">
+      <h2>Órdenes en Estudio de Factibilidad</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=26d12cef-dd67-43d0-acd7-33bd886a4e95&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte2" class="report blue">
+      <h2>Bancos de Medidores y Áreas de Servidumbre en Proceso de Revisión</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=65b6267b-964e-400b-9616-e1a46e3a1573&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte3" class="report yellow">
+      <h2>Sistemas de Utilización en Proceso de Revisión</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=78694419-fb97-408c-8ce6-d07dc64c75b0&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte4" class="report green">
+      <h2>Control de Habilitaciones Urbanas</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=14616025-9f5f-43f3-b543-427a481778bf&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte5" class="report blue">
+      <h2>Reporte de Alimentadores 2024</h2>
+      <iframe src="https://app.powerbi.com/view?r=eyJrIjoiOThlZWJlNTMtMjQ3NS00NmQ5LWJiYWUtNTY1YTIxZWVmNTg0IiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9"></iframe>
+    </div>
+    <div id="reporte6" class="report yellow">
+      <h2>Control Sistemas de Distribución</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=e6db4836-0251-47f8-a39d-a35828b3fc1d&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte7" class="report yellow">
+      <h2>Multas Contratistas</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=d8fead9e-459d-4d40-ba55-0c0a8eadf472&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+    <div id="reporte8" class="report yellow">
+      <h2>Liquidaciones - Estado ACQ y POS</h2>
+      <iframe src="https://app.powerbi.com/reportEmbed?reportId=6afa39b7-450d-42e7-a0da-16c657e7e181&autoAuth=true&ctid=6575cbfe-c543-4724-9360-ab4a5ccb744e"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
