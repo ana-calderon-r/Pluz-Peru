@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="PN0hQK674TR7ehvlsA7y">
+    <mxGraphModel dx="774" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WQRb1BOC57MUG3vYlkVl-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="Ingreso de solicitudes" vertex="1">
+          <mxGeometry height="60" width="80" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WQRb1BOC57MUG3vYlkVl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" value="Medios" vertex="1">
+          <mxGeometry height="30" width="70" x="385" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WQRb1BOC57MUG3vYlkVl-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WQRb1BOC57MUG3vYlkVl-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="385" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
